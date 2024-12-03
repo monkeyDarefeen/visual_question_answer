@@ -47,6 +47,12 @@ This project provides a solution for generating questions based on any given ima
      ```python
      api_key="your_api_key_here"
      ```
+4. Download SAM model from :
+
+   ```
+   https://github.com/facebookresearch/segment-anything
+   Keep the model in main directory. And Add the model name in `.ipynb` file where it is indicated.
+   ```
 
 ---
 
@@ -65,6 +71,8 @@ This project provides a solution for generating questions based on any given ima
    - **Context Extraction**: Extracts meaningful insights from the image using the specified models.
    - **Question Generation**: Generates a set of questions reflecting the image's context and individual activities.
    - **Answer Analysis**: Evaluates and analyzes the generated answers.
+
+**Note**: It might take a while to run it for first time, as it will download few models..
 
 4. **Output**:
    - Augmented image datasets.
